@@ -1,0 +1,13 @@
+{
+  "id": "Canvas",
+  "name": "Canvas",
+  "version": "1.0.0",
+  "description": "Canvas LMS",
+  "main": "index.js",
+  "author": "Christiam Mendoza <mail@christiam.me>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://canvas.instructure.com",
+    "hasNotificationSound": true
+  }
+}
