@@ -33,10 +33,10 @@ module.exports = (Franz) => {
   function getMessages() {
     let direct = 0;
     let indirect = 0;
-    const FranzData = document.querySelector('#menu-item__badge').dataset;
+    const FranzData = document.getElementsByClassName('menu-item__badge');
     if (FranzData) {
-      direct = FranzData.direct;
-      indirect = FranzData.indirect;
+      direct = document.getElementsByClassName("menu-item__badge").length;
+      // indirect = FranzData.indirect;
     }
 
     Franz.setBadge(direct, indirect);
