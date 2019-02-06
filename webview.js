@@ -33,9 +33,9 @@ module.exports = (Franz) => {
   function getMessages() {
     let direct = 0;
     let indirect = 0;
-    const FranzData = document.getElementsByClassName('menu-item__badge');
+    FranzData = document.getElementsByClassName("menu-item__badge")[0];
     if (FranzData) {
-      direct = document.getElementsByClassName("menu-item__badge").length;
+      direct = FranzData.outerText;
       // indirect = FranzData.indirect;
     }
 
