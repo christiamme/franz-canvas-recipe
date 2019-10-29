@@ -18,5 +18,23 @@ To install a new integration, download the integration folder e.g `canvas`.
 2. Create the folder as a new folder
 3. Go back to the installation instructions
 
+### Configuration for your Institution
+Change `"serviceURL"` to the URL for your institution's Canvas LMS instance in `package.json`.
+```
+{
+  "id": "Canvas",
+  "name": "Canvas",
+  "version": "1.0.0",
+  "description": "Canvas LMS",
+  "main": "index.js",
+  "author": "Christiam Mendoza <mail@christiam.me>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://canvas.instructure.com",
+    "hasNotificationSound": true
+  }
+}
+```
+
 ### How to create your own Franz recipes:
 * [Read the documentation](https://github.com/meetfranz/plugins)
