@@ -27,7 +27,7 @@ Change `"serviceURL"` to the URL for your institution's Canvas LMS instance in `
   "version": "1.0.0",
   "description": "Canvas LMS",
   "main": "index.js",
-  "author": "Christiam Mendoza <mail@christiam.me>",
+  "author": "Christiam Mendoza <your@email>",
   "license": "MIT",
   "config": {
     "serviceURL": "https://canvas.instructure.com",
